@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <header class="header">
+        <a href="#home" class="logo"> JChavez<span>.dev</span></a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home">Inicio</a>
+            <a href="#about">Información</a>
+            <a href="#services">Proyectos</a>
+            <a href="#contact">Contacto</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hola!, Soy <span>José Chavez</span></h1>
+            <h3>Software <span> Engineer </span></h3>
+            <p>(Conocimiento + Habilidad) x Actitud</p>
+            <div class="social-icons">
+                <a href="https://github.com/Nagthis"><i class="bx bxl-github"></i></a>
+                <a href="https://www.linkedin.com/in/josechavez92/"><i class="bx bxl-linkedin-square"></i></a>
+                <a href="https://x.com/Nagthas"><i class="bx bxl-twitter"></i></a>
+            </div>
+            <div class="btn-group">
+                <a href="#" class="btn">Contratar</a>
+                <a href="#contact" class="btn">Contáctame</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="Verde.webp" alt="Imagen de José Chavez">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="/asd.jpg.webp" alt="Imagen de José Chavez">
+        </div>
+        <div class="about-content">
+            <h2>Sobre <span>Mi</span></h2>
+            <p>Soy de nacionalidad <b>Chileno</b> y vivo en la ciudad de <b>Santiago</b>. Mi pasión por la tecnología es el motor en mi carrera profesional. 
+            Actualmente me dedico al perfeccionamiento de áreas como <b>Desarrollo Full Stack</b>,<b>Ciberseguridad</b>, <b>Análisis de datos</b> y <b>Gestión de datos en la Nube</b>. 
+            Participando regularmente en capacitaciones, cursos especializados y bootcamps. Mi compromiso es mantenerme a la vanguardia en las últimas tendencias y tecnologías del mercado, permitiéndome desarrollar soluciones innovadoras y eficientes.</p>
+            <a href="#" class="btn">Leer más</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Proyectos</h2>
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bxs-devices"></i>
+                    <h4>Mobile App Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis beatae ad asperiores unde tempore rerum perspiciatis, adipisci numquam commodi ullam esse! Esse non, quod consequuntur quibusdam libero tempore dignissimos adipisci.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-code"></i>
+                    <h4>Frontend Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis beatae ad asperiores unde tempore rerum perspiciatis, adipisci numquam commodi ullam esse! Esse non, quod consequuntur quibusdam libero tempore dignissimos adipisci.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-code-curly"></i>
+                    <h4>Backend Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis beatae ad asperiores unde tempore rerum perspiciatis, adipisci numquam commodi ullam esse! Esse non, quod consequuntur quibusdam libero tempore dignissimos adipisci.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contácta<span>me</span></h2>
+        <form action="">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Nombre Completo">
+                    <input type="email" placeholder="Correo Electrónico">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Teléfono Celular">
+                    <input type="text" placeholder="Asunto">
+                </div>
+            </div>
+            <div class="input-group-2">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Escribir..."></textarea>
+                <input type="submit" value="Enviar Mensaje" class="btn">
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#"><i class="bx bxl-github"></i></a>
+            <a href="#"><i class="bx bxl-linkedin-square"></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+        </div>
+        <ul class="list">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#services">Proyectos</a></li>
+            <li><a href="#about">Acerca de mí</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+        <p class="copyrigth">&copy; 2024 JChavez.dev | Todos los derechos reservados</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
