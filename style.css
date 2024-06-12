@@ -52,8 +52,6 @@ body {
 }
 span {
     color: var(--main-color);
-    display: inline-block;
-    width: 100%;
 }
 .navbar a {
     font-size: 1.8rem;
