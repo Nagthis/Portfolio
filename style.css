@@ -35,6 +35,11 @@ body {
     align-items: center;
     z-index: 100;
 }
+.highlight {
+    color: #00ff51;
+}
+
+
 #menu-icon {
     font-size: 3.6rem;
     color: var(--main-color);
@@ -274,6 +279,7 @@ section {
 .footer {
     background-color: var(--bg-color);
     padding: 50px 0;
+    text-align: center;
 }
 .footer .social-icons {
     text-align: center;
